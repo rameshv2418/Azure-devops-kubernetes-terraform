@@ -34,7 +34,7 @@ stages:
     steps: 
     - bash: echo "Do the the Dev build"
   - deployment: QADeployJob
-    environment: QADeploy
+    environment: QA
     strategy:
       runOnce:
        deploy:
