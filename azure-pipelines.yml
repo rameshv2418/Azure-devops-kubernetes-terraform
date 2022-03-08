@@ -33,7 +33,7 @@ stages:
   - job: BuildJob
     steps: 
     - bash: echo "Do the the Dev build"
-  - deployment: QADeploy Job
+  - deployment: QADeployJob
     environment: QADeploy
     strategy:
       runOnce:
