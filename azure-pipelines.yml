@@ -29,7 +29,7 @@ stages:
   jobs:
   - deployment: DevDeploy Job
     environment: DevDeploy
-  startegy:
+  strategy:
    runOnce:
     deploy:
       steps: 
